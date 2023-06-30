@@ -1,0 +1,33 @@
+#
+# Copyright (C) 2016+ AzerothCore <www.azerothcore.org>, released under GNU AGPL v3 license: https://github.com/azerothcore/azerothcore-wotlk/blob/master/LICENSE-AGPL3
+#
+
+[worldserver]
+
+########################################
+# SpeedBuff Config
+########################################
+#
+#    SpeedBuff.Enable
+#        Description: Enable the SpeedBuff fix
+#        Default:     0 - Disabled
+#                     1 - Enabled
+#
+
+SpeedBuff.Enable = 1
+
+#
+# RANDOM ENCHANTS OPTIONS
+#
+#     SpeedBuff.AnnounceOnLogin
+#        Announce a message on login for this module
+#        Default:     1
+
+SpeedBuff.AnnounceOnLogin=1
+
+#
+#     SpeedBuff.OnLoginMessage
+#        Message to display on login(Only applies if AnnounceOnLogin is enabled)
+#        Default:    "This server is running a SpeedBuff Module."
+
+SpeedBuff.OnLoginMessage="This server is running a SpeedBuff Module."
